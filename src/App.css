@@ -1,0 +1,12 @@
+.buttonsWrapper {
+  display: flex;
+}
+
+.row {
+  width: fit-content;
+  display: flex;
+}
+
+.row.selected {
+  background-color: red;
+}
