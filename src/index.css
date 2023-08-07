@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Nico Moji";
+  src: url("assets/nicomoji-plus_v2.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0;
+}
+
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-green: #a2f884;
+  --color-pink: #ff36df;
+
+  --color-font: var(--color-black);
+  --color-bg: var(--color-white);
+
+  --font-main: "Montserrat";
+  --font-title: "Nico Moji";
+
+  --size-text: 16px;
+  --size-title: 64px;
+  --shadow-header: 0px 1px 16px 1px rgba(0, 0, 0, 0.25);
+
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: var(--color-font);
+  text-decoration: underline;
+}
+
+body {
+  overflow-x: hidden;
+  font-weight: 600;
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-main), Roboto, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  color: var(--color-font);
+  background: var(--color-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-family: var(--font-title);
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.App,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.content-wrapper {
+  max-width: 1400px;
+  width: 100%;
+}

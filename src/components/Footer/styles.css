@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+}
+
+.footer__inner {
+  padding: 48px 64px 16px;
+}
+
+.footer__content {
+  display: flex;
+  gap: 128px;
+  flex-wrap: wrap;
+}
+
+.footer__linklist {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__linklist-item {
+  font-size: 16px;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.footer__end {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer__copyright {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 12px;
+}
