@@ -13,7 +13,7 @@ export default function Hero({
   description = "",
 }: Props): JSX.Element {
   return (
-    <div className="hero">
+    <section className="hero">
       <img src={heroImage} alt="Zdjęcie główne" className="hero__image" />
       <div className="hero__content">
         <div className="hero__inner">
@@ -48,6 +48,6 @@ export default function Hero({
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
