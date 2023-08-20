@@ -35,3 +35,10 @@
   font-size: 16px;
   color: #383838;
 }
+
+.hero__form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 24px;
+}

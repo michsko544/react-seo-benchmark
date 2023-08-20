@@ -18,6 +18,12 @@
   letter-spacing: 0;
 }
 
+input,
+input:focus,
+input:hover {
+  outline: none;
+}
+
 :root {
   --color-black: #000;
   --color-white: #fff;

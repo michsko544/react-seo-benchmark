@@ -14,7 +14,7 @@ function App() {
           description="Aplikacja ma przypominać stronę główną sklepu internetowego posiadającego wysokiej rozdzielczości grafikę, dwa rodzaje czcionek oraz kilka elementów interfejsu z ikonami."
         />
         <Tiles />
-        <Cta title="Druga sekcja graficzna" />
+        <Cta title="Subskrybuj nasz newsletter" />
       </main>
       <Footer />
     </div>
