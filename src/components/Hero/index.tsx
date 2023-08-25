@@ -1,4 +1,5 @@
 import heroImage from "@/assets/hero.png";
+import heroImageMobile from "@/assets/heroMobile.png";
 import "./styles.css";
 import Button from "../Button";
 import Dots from "../Dots";
@@ -14,7 +15,16 @@ export default function Hero({
 }: Props): JSX.Element {
   return (
     <section className="hero">
-      <img src={heroImage} alt="Zdjęcie główne" className="hero__image" />
+      <img
+        src={heroImage}
+        alt="Zdjęcie główne"
+        className="hero__image hero__image--desktop"
+      />
+      <img
+        src={heroImageMobile}
+        alt="Zdjęcie główne"
+        className="hero__image hero__image--mobile"
+      />
       <div className="hero__content">
         <div className="hero__inner">
           <div className="content-wrapper">

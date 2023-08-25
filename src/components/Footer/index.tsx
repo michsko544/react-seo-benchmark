@@ -45,6 +45,7 @@ export default function Footer(): JSX.Element {
             <a
               href="https://github.com/michsko544/react-seo-benchmark"
               target="_blank"
+              className="footer__social-link"
             >
               <svg
                 width="32"

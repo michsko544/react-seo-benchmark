@@ -8,6 +8,10 @@
   object-fit: cover;
 }
 
+.cta__image--mobile {
+  display: none;
+}
+
 .cta__content {
   position: absolute;
   top: 50%;
@@ -33,4 +37,32 @@
   color: var(--color-white);
   max-width: 280px;
   width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .cta__image {
+    height: 460px;
+    filter: brightness(32%);
+  }
+
+  .cta__image--mobile {
+    display: block;
+  }
+
+  .cta__image--desktop {
+    display: none;
+  }
+
+  .cta__wrapper {
+    flex-direction: column;
+  }
+
+  .cta__inner {
+    padding: 0 16px;
+  }
+
+  .cta__title {
+    text-align: center;
+    text-shadow: 3px 3px 16px rgb(145 207 124);
+  }
 }

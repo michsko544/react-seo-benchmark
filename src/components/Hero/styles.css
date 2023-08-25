@@ -8,6 +8,10 @@
   object-fit: cover;
 }
 
+.hero__image--mobile {
+  display: none;
+}
+
 .hero__content {
   position: absolute;
   top: 50%;
@@ -34,4 +38,27 @@
 .hero__text {
   font-size: 16px;
   color: #383838;
+}
+
+@media (max-width: 1000px) {
+  .hero__inner {
+    padding: 0 16px;
+  }
+
+  .hero__title {
+    font-size: 36px;
+  }
+
+  .hero__image {
+    height: 80vh;
+    object-position: left center;
+  }
+
+  .hero__image--mobile {
+    display: block;
+  }
+
+  .hero__image--desktop {
+    display: none;
+  }
 }
